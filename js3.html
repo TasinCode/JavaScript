@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Operator, Library Funtions in JavaScript </title>
+</head>
+
+
+<body>
+
+    <script>
+
+//length1 Library Function
+        var text = "BD"
+        var len = text.length;
+
+        document.write("Number of character = " + len); 
+
+
+//length2 Library Function
+        var t = "BD"
+
+        document.write(" <br> Number of character = " + t.length);
+
+
+//length3 Library Function
+        var word = prompt("Enter your Name : ")
+
+        document.write(" <br> Number of character = " + word.length);
+
+
+//charAt Library Function
+        var char= "Tasin Islam";
+        document.write(char.charAt(3));
+
+
+//Upper Library Function
+        var upper = " <br> Programmer"
+        document.write(upper.toUpperCase());
+
+
+//Lower Library Function
+        var lower = " <br> Programmer"
+        lower = lower.toLowerCase();
+        document.write(lower);
+
+
+//concat Library Function
+        var text1 = " <br> you";
+        var text2 = " are so beautiful";
+
+        var total = text1.concat(text2);
+        
+        document.write(total);
+
+
+//slice1 Library Function
+        var s = "Preslice"
+        var s1 = s.slice(3,8);
+
+        document.write(s1);
+
+
+//slice2 Library Function
+        var s = "Preslice"
+
+        document.write(s.slice(0,3));
+
+
+
+
+//Task
+    
+        var firstName = " Tasin";
+        var lastName = " Islam";
+
+        var fullName = firstName + lastName;
+
+        document.write(" <br> I am" +fullName);
+        document.write("<br> Total length = " + fullName.length);
+        document.write("<br> My name in uppercase formate is " + fullName.toUpperCase());
+        document.write("<br> 2nd Position: " + fullName.slice(6,12));
+        
+    </script>
+
+    <script src="logic3.js"></script>
+
+    
+    
+</body>
+</html>
