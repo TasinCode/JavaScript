@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Temp Converter, Area of Various Shape, Calculator in JS </title>
+</head>
+<body>
+    
+
+
+    <script>
+
+//Square Area
+
+        var s = parseFloat(prompt("Enter s = "));
+        
+
+        var sqr_area = s**2;
+
+        document.write("Square Area = " +sqr_area + "<br>");
+
+
+//Rectangle Area
+
+        var base = parseFloat(prompt("Enter Base = "));
+        var height = parseFloat(prompt("Enter Height = "));
+
+        var rec_area = base * height;
+
+        document.write("Rectangle Area = " +rec_area + "<br>");
+
+
+//Triangle Area
+
+        var base = parseFloat(prompt("Enter Base = "));
+        var height = parseFloat(prompt("Enter Height = "));
+
+        var tri_area = (base * height) / 2;
+
+        document.write("Triangle Area = " +tri_area + "<br>");
+
+
+
+
+//Temperature Converter C to F
+        
+        var C = parseFloat(prompt("Enter Celsius = "));
+
+        var F = C * (9/5) + 32;
+
+        document.write("Fahrenheit = " + F + "<br>" );
+
+
+
+//Temperature Converter F to C
+        
+        var F = parseFloat(prompt("Enter Fahrenheit = "));
+
+        var C = (F - 32) * (5/9);
+
+        document.write("Celsius = " + C + "<br>" );
+
+
+
+    </script>
+
+
+
+
+
+    <script src="logic4.js"></script>
+</body>
+</html>
