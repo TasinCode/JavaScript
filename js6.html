@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Logical Operator Programs in JS </title>
+</head>
+<body>
+
+
+
+
+
+    <script>
+        var num1 = prompt("Enter num1 : ");
+        var num2 = prompt("Enter num2 : ");
+        var num3 = prompt("Enter num3 : ");
+
+        if(num1 > num2 && num1 > num3)
+        document.write("Large Number is 1 : " + num1);
+
+        else if(num2 > num1 && num2 > num3)
+        document.write("Large Number is 2 : " + num2);
+
+        else
+        document.write("Large Number is 3 : " + num3);
+    
+
+
+// Task - 5
+
+        var letter = prompt("Enter a letter : ");
+
+        letter = letter.toLowerCase();
+
+        switch(letter){
+        case("a"):
+        case("e"):
+        case("i"):
+        case("o"):
+        case("u"):
+        document.write("<br> The letter is Vowel")
+        break;
+
+        default:
+        document.write("<br> The letter is Consonent");
+        }
+
+    
+
+
+
+
+
+     </script>
+
+    <script src="logic6.js"></script>
+</body>
+</html>
