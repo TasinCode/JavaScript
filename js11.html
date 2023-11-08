@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 1D & 2D Array in JS </title>
+</head>
+<body> 
+
+
+    
+
+    <script>
+
+
+// Task 9
+// Two Dimensional Array
+// Create a function called highestRunScorer
+// Receive a 2d array called playersInfo
+// Based on highest score return the name of the player
+
+
+        function highestRunScorer(playersInfo){
+            var maxScorer = playersInfo[0][0];
+            var maxScore = playersInfo[0][1];
+
+            for(var x=1; x<playersInfo.length; x++){
+                if(maxScore < playersInfo[x][1]){
+                  maxScore = playersInfo[x][1];
+                  maxScorer = playersInfo[x][0];
+                }
+            }
+                  return maxScorer;
+        }
+            
+        
+
+        var playersInfo = [ 
+        
+        ["Nafis", 50],
+        ["Anas", 82], 
+        ["Fahim", 80], 
+        ["Tasin", 90], 
+        ["Asam", 82]
+    ];
+        var name = highestRunScorer(playersInfo);
+        document.write(name);
+
+
+    </script>
+
+
+
+
+    <script src="logic11.js"></script>
+</body>
+</html>
