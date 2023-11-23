@@ -27,3 +27,4 @@ var newNumbers = numbers3.filter(function(x){
 });
 
 console.log(newNumbers);
+
