@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ES6 Synchronous vs Asynchronous an Modules and Class in JS </title>
+</head>
+
+<body>
+    
+
+    <script>
+        // Synchronous vs Asynchronous
+
+        // Synchronous Programing
+
+        const taskOne = () => {
+            console.log("Task1");
+        };
+
+        // Asynchronus
+
+        const dataLoading = () => {
+            console.log("Task2.Data Loading");
+        };
+
+        const taskTwo = () => {
+            setTimeout(dataLoading, 2000);
+        };
+
+        const taskThree = () => {
+            console.log("Task3");
+        };
+
+        const taskFour = () => {
+            console.log("Task4");
+        };
+
+        const taskFive = () => {
+            console.log("Task5");
+        };
+
+
+        taskOne();
+        taskTwo();
+        taskThree();
+        taskFour();
+        taskFive();
+
+
+
+
+
+    </script>
+
+
+    <script src="logic40.js" type="module"></script>
+</body>
+</html>
