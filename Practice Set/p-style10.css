@@ -1,0 +1,14 @@
+html, ody{
+    height: 100%;
+    width: 100%;
+}
+
+#joke{
+    background-color: azure;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
