@@ -1,0 +1,6 @@
+.crimeCard{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+}
